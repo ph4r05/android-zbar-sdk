@@ -34,22 +34,19 @@ LOCAL_PATH := $(MY_LOCAL_PATH)
 LOCAL_MODULE := zbar
 LOCAL_SRC_FILES := \
 			zbarjni.c \
-			zbar/img_scanner.c \
-			zbar/decoder.c \
-			zbar/image.c \
-			zbar/symbol.c \
 			zbar/convert.c \
-			zbar/config.c \
-			zbar/scanner.c \
+            zbar/config.c \
+			zbar/decoder.c \
 			zbar/error.c \
+			zbar/image.c \
+			zbar/img_scanner.c \
+			zbar/symbol.c \
+			zbar/scanner.c \
 			zbar/refcnt.c \
 			zbar/video.c \
 			zbar/video/null.c \
 			zbar/decoder/code128.c \
 			zbar/decoder/code39.c \
-			zbar/decoder/code93.c \
-			zbar/decoder/codabar.c \
-			zbar/decoder/databar.c \
 			zbar/decoder/ean.c \
 			zbar/decoder/i25.c \
 			zbar/decoder/qr_finder.c \
