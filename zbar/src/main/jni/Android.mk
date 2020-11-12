@@ -10,7 +10,7 @@ LOCAL_CFLAGS := \
     -DLIBDIR="c" \
     -DBUILDING_LIBICONV \
     -DBUILDING_LIBCHARSET \
-    -DIN_LIBRARY
+    -DIN_LIBRARY -O3
 
 LOCAL_SRC_FILES := \
 	libiconv-1.15/lib/iconv.c \
